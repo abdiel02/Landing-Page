@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 </head>
 <body>
     <header>
         <nav class="flexbox">
-            <a href="index.html">Header Logo</a>
+            <a id="title" href="index.html">Header Logo</a>
             <ul>
                 <li><a href="#section1">Header Link One</a></li>
                 <li><a href="#section2">Header Link Two</a></li>
@@ -18,47 +19,70 @@
             </ul>
 
         </nav>
-        <h1>This website is awesome</h1>
-        <p>this website has some subtext...</p>
-        <button type="button" value="sign up"></button>
-        <div class="container">
-            <div class="image">
-                <img src="l">
+        <div id="intro" class="flex-container">
+            <div class="flex-child1">
+                <h1>This website is awesome</h1>
+                <p>this website has some subtext here that goes under the main title...</p>
+                <button class="btn btn-default btn-primary" type="button">Sign Up</button>
             </div>
+            <div class="flex-child2">
+                <img src="https://cdn.pixabay.com/photo/2014/03/24/17/06/bird-295026_1280.png">
+            </div>
+            
         </div>
-
 
     </header>
     <section id="section1">
         <h1>Some Random Information</h1>
-        <div class="boxes">
+        <div class="parent">
+
+            <div class="boxrow">
+            </div>
+
+            <div class="boxrow">
+            </div>
+
+            <div class="boxrow">
+            </div>
+
+            <div class="boxrow">
+            </div>
 
         </div>
-        <div class="boxes">
+        <div class="parent2">
 
-        </div>
-        <div class="boxes">
+            <div class="boxrow2">
+                <p>this is some subtext under the image</p>
+            </div>
 
-        </div>
-        <div class="boxes">
+            <div class="boxrow2">
+                <p>this is some subtext under the image</p>
+            </div>
+
+            <div class="boxrow2">
+                <p>this is some subtext under the image</p>
+            </div>
+            
+            <div class="boxrow2">
+                <p>this is some subtext under the image</p>
+            </div>
 
         </div>
 
     </section>
     <section id="section2">
-        <h1>Inspiring Quote</h1>
+        <h1>This is an inspiring quote or testimonial from a customer...</h1>
 
     </section>
     <section id="section3">
         <div>
-            <h2>Call to Action</h2>
-            <p>Sign up for...</p>
-            <button type="button" vallue="sign up"></button>
+            <h2>Call to Action! It's time!</h2>
+            <p>Sign up for our product by clicking the button...  <span><button id="mybtn" type="button">Sign Up</button></span></p>
         </div>
 
     </section>
     <footer>
-        <p>Copyright</p>
+        <p>CopyrightⒸ</p>
 
     </footer>
     
